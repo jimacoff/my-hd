@@ -19,7 +19,9 @@ Here is a link to a [live demo](https://my-hd.herokuapp.com/) of the my-hd app i
 
 ### Instantly Deploy Your Own My-HD Instance
 
-With a single click you can deploy your own private instance of the My-HD app on heroku. This feature is here so you can explore that app and its functionality. **__NOTE: Instant deploy is not recommended if you plan to set up My-HD as a user facing live production application. For this it is recommended that you clone this repository and develop locally__**
+With a single click you can deploy your own private instance of the My-HD app on heroku. This feature is here so you can explore that app and its functionality.
+
+**__NOTE: Instant deploy is not recommended if you plan to set up My-HD as a user facing live production application. For this it is recommended that you clone this repository and develop locally__**
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
