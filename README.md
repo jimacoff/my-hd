@@ -25,6 +25,14 @@ With a single click you can deploy your own private instance of the My-HD app on
 
 **__NOTE: Instant deploy is not recommended if you plan to set up My-HD as a user facing live production application. For this it is recommended that you clone this repository and develop locally. As an alternative you can deploy here and run__** `git pull heroku master` **__in your local command line to pull a copy of the deployed code from your Heroku remote repo into your local development environment.__**
 
+## App Setup and Configuration
+
+### Setting Up Third Party API Credentials
+
+My-HD uses API's from [AWS(s3)](https://aws.amazon.com/s3) and [coconut.io](https://coconut.co)
+
+In order for users to upload videos and have them automatically transcoded you must obtain api credentials for both services.
+
 ## Test Coverage
 
 The original iteration of My-HD was contracted for creation by a private individual who did not require test coverage therefore it was not included. However, for the re-write of this application we will be addressing missing features, code smells and other issues that hindered us while running the v1 iteration of My-HD.
