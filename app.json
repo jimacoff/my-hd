@@ -6,7 +6,7 @@
   "keywords": ["video", "video-player", "VAST", "vast-player", "video-processing", "rails-5", "open-source", "transcoding", "s3", "AWS"],
   "env": {
     "APP_NAME": {
-      "description": "This is the app name exactly as you named it when you first deployed.",
+      "description": "This is the app name exactly as you named it in the 'App Name' field above.",
       "value": "my-hd"
     }
   }
