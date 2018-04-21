@@ -16,6 +16,6 @@ namespace 'heroku' do
   end
 
   def build_command(cmd, app_name)
-    "heroku #{cmd} --app #{app_name}"
+    "#{cmd} --app #{app_name}"
   end
 end
