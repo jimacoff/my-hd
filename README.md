@@ -23,7 +23,7 @@ With a single click you can deploy your own private instance of the My-HD app on
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-**__NOTE: Instant deploy is not recommended if you plan to set up My-HD as a user facing live production application. For this it is recommended that you clone this repository and develop locally. As an alternative you can deploy here and run `git pull heroku master` into your local command line to pull a copy of the deployed code from your Heroku remote repo into your local development environment__**
+**__NOTE: Instant deploy is not recommended if you plan to set up My-HD as a user facing live production application. For this it is recommended that you clone this repository and develop locally. As an alternative you can deploy here and run__** `git pull heroku master` **__in your local command line to pull a copy of the deployed code from your Heroku remote repo into your local development environment__**
 
 ## Test Coverage
 
