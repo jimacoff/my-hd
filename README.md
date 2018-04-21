@@ -11,7 +11,13 @@
 
 My-HD has a robust admin area allowing the site owner to control all aspects of site media and advertising management.  
 
-## Deploy
+## Demo
+
+### Live Demo
+
+Here is a link to a [live demo](https://my-hd.herokuapp.com/)] of the my-hd app in a production environment.
+
+### Instantly Deploy Your Own My-HD Instance With A Single click
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
