@@ -7,6 +7,7 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 Rails.application.config.assets.precompile += ['node_modules/bootstrap/dist/js/*.js']
 Rails.application.config.assets.precompile += ['node_modules/bootstrap/dist/css/*.css']
+Rails.application.config.assets.precompile += ['node_modules/jquery/dist/*.js']
 
 
 # Precompile additional assets.
