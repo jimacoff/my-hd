@@ -3,5 +3,11 @@
   "description": "An open-source production ready video publishing app with VAST ad support",
   "repository": "https://github.com/leather-s/my-hd",
   "logo": "https://avatars0.githubusercontent.com/u/19522903?s=460&v=4",
-  "keywords": ["video", "video-player", "VAST", "vast-player", "video-processing", "rails-5", "open-source", "transcoding", "s3", "AWS"]
+  "keywords": ["video", "video-player", "VAST", "vast-player", "video-processing", "rails-5", "open-source", "transcoding", "s3", "AWS"],
+  "env": {
+    "APP_NAME": {
+      "description": "This is the app name exactly as you named it when you first deployed.",
+      "App Name": "my-hd"
+    }
+  }
 }
