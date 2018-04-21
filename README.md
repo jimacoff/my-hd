@@ -15,7 +15,7 @@ My-HD has a robust admin area allowing the site owner to control all aspects of 
 
 ### Live Demo
 
-Here is a link to a [live demo](https://my-hd.herokuapp.com/)] of the my-hd app in a production environment.
+Here is a link to a [live demo](https://my-hd.herokuapp.com/) of the my-hd app in a production environment.
 
 ### Instantly Deploy Your Own My-HD Instance With A Single click
 
