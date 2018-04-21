@@ -11,6 +11,11 @@
 
 My-HD has a robust admin area allowing the site owner to control all aspects of site media and advertising management.  
 
+## Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## License
 
 Copyright (C) 2018 Sidney Leatherwood & other My-HD contributors (see AUTHORS.md)
