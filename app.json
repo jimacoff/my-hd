@@ -7,7 +7,7 @@
   "env": {
     "APP_NAME": {
       "description": "This is the app name exactly as you named it when you first deployed.",
-      "App Name": "my-hd"
+      "value": "my-hd"
     }
   }
 }
