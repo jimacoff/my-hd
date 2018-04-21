@@ -9,5 +9,10 @@
       "description": "This is the name of your heroku app exactly as you named it in the 'App Name' field above.",
       "value": "my-hd"
     }
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
 }
