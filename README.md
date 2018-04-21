@@ -9,7 +9,7 @@
 * Users sign-up and create content channels where they can upload, host, and discuss content
 * Uploaded video is validated and transcoded into various video formats for efficient use of bandwidth during display on various devices.
 
-My-HD has a robust admin area allowing the site owner to control all aspects of site media and advertising management.  
+My-HD has a robust admin area allowing the site owner to control a broad spectrum of site-wide functionality, as well as media and advertisement display.  
 
 ## Wanna Take a Look?
 
@@ -27,7 +27,7 @@ With a single click you can deploy your own private instance of the My-HD app on
 
 ## Test Coverage
 
-The person who initially contracted for the creation of this original project did not require test coverage therefore it was not included. However for the re-write of this application we will be addressing issues and smells encountered running the v1 iteration of My-HD.
+The original iteration of My-HD was contracted for the creation for a private individual who did not require test coverage therefore it was not included. However, for the re-write of this application we will be addressing missing features, code smell and other issues re ran into running the v1 iteration of My-HD.
 
 In addition we will be adding test coverage to core functionality and critical app logic. However do not get your hopes up. My-HD is a rapid prototype to production rails app that is light weight and intended to be customized. With that in mind it should not be difficult to cover sections of code that we did not address.
 
