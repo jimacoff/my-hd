@@ -7,7 +7,7 @@
 * Open source video content sharing platform
 * Supports VAST pre-roll and mid-roll display
 * Users sign-up and create content channels where they can upload, host, and discuss content
-* Uploaded video is validated and transcoded into various video formats for efficient use of bandwidth during display.
+* Uploaded video is validated and transcoded into various video formats for efficient use of bandwidth during display on various devices.
 
 My-HD has a robust admin area allowing the site owner to control all aspects of site media and advertising management.  
 
