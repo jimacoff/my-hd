@@ -150,6 +150,10 @@ nav.navbar {
 
     div.stats-group-wrapper {
       padding: 0;
+
+      a {
+        text-decoration: none;
+      }
     }
 
     span.video-title {
