@@ -1,0 +1,170 @@
+<div class="video-page-wrapper group px-xs-0">
+  <div class="hero-player col-lg-8 float-lg-left pr-lg-2">
+    <div class="video-player">
+      <video id='my-video' width="640" height="480" controls>
+        <source src="" title='1080p' type='video/mp4'/>
+        <source src="" title='720p' type='video/mp4'/>
+        <source src="" title='480p' type='video/mp4'/>
+      </video>
+      <script type="text/javascript">
+        fluidPlayer(
+          'my-video',
+           {
+               layoutControls: {
+                   primaryColor:           '#bf0a30',
+                   playButtonShowing:      true,
+                   playPauseAnimation:     true,
+                   fillToContainer:        true,
+                   autoPlay:               true,
+                   mute:                   false,
+                   keyboardControl:        true,
+                   layout:                 'default',
+                   logo: {
+                       imageUrl:           null,
+                       position:           'top left',
+                       clickUrl:           null,
+                       opacity:            1
+                   },
+                   controlBar: {
+                       autoHide:           true,
+                       autoHideTimeout:    3,
+                       animated:           true
+                   },
+                   timelinePreview:        {},
+                   htmlOnPauseBlock: {
+                       html:               null,
+                       height:             null,
+                       width:              null
+                   },
+                   playerInitCallback:     (function() {
+                     // $('#my-video')[0].webkitEnterFullscreen()
+                   })
+               }
+           }
+        );
+      </script>
+    </div>
+    <div class="title-stats col-12 group">
+      <div class="stats-group-wrapper col-lg-6 col-md-6 float-lg-left float-md-left">
+        <span class="video-title">How to build a paper airplane</span>
+        <span class="video-views">213,640 views</span>
+      </div>
+      <div class="stats-group-wrapper text-right like-dislike col-lg-6 col-md-6 float-left">
+        <a href="#"><%= image_tag 'thumbs-up.png', class: 'opinion-thumbs opinion-thumbs-up' %>3.1K</a>
+        <a href="#"><%= image_tag 'thumbs-down.png', class: 'opinion-thumbs opinion-thumbs-down' %>4.1K</a>
+      </div>
+    </div>
+    <div class="video-profile-info px-sm-3 px-lg-0">
+      <div class="pic-subscribe">
+        <div class="image-wrapper group">
+          <a class="avatar-image-link float-left" href="">
+            <%= image_tag 'enthusiast.jpg', class: 'video-meta-avatar' %>
+          </a>
+          <div class="channel-name-group float-left">
+            <span class="channel-title">Video Steve</span>
+            <span class="video-publish-date">Published on Aug 15, 2018</span>
+          </div>
+          <button class="btn btn-subscribe float-lg-right float-md-right float-sm-right float-xs-right" type="button" name="button">Subscribe</button>
+        </div>
+      </div>
+      <div class="video-description col-lg-12">
+        <div class="video-description-content">
+          <p>Welcome to the Winner channel. Come along with me as I explore videos of people winning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-comments col-lg-12 px-sm-3 px-lg-0">
+      <div class="comments-stats col-lg-12">
+        <div class="stats-group">
+          <span>1,439 Comments</span>
+        </div>
+      </div>
+      <div class="add-comment-group group">
+        <div class="user-add-comment-avatar-group float-left">
+          <a href=""> <%= image_tag 'user-avatar.jpg', class: 'comment-avatar' %> </a>
+        </div>
+        <div class="comment-input-group col-10 float-left">
+          <input class="focus-comment" type="text" name="" value="" placeholder="Add a comment...">
+          <div class="comment-button-group group float-right" style="display:none;">
+            <button class="btn btn-cancel-add float-lg-left" type="button" name="button">Cancel</button>
+            <button class="btn btn-reply float-lg-left" type="button" name="button">Reply</button>
+          </div>
+        </div>
+      </div>
+      <% 3.times do  %>
+        <div class="comment-content-group group">
+          <div class="comment-avatar-group float-lg-left fload-md-left d-md-inline">
+            <a href=""> <%= image_tag 'enthusiast.jpg', class: 'comment-avatar' %> </a>
+          </div>
+          <div class="comment-heading-group group">
+            <span class="commenter-name float-lg-left float-md-left">Winner45</span>
+            <span class="comment-age float-lg-left float-md-left">2 months ago</span></br>
+            <div class="comment-body col-lg-10 col-md-10">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris
+              </p>
+              <div class="comment-like-dislike col-lg-6">
+                <a href=""><%= image_tag 'thumbs-up.png', class: 'opinion-thumbs opinion-thumbs-up' %>3.1K</a>
+                <a href=""><%= image_tag 'thumbs-down.png', class: 'opinion-thumbs opinion-thumbs-down' %>4.1K</a>
+                <a class="js-reply ml-2" href="">Reply</a>
+              </div>
+              <div class="comment-input-group col-lg-12 float-left mt-2">
+                <input type="text" name="" value="" placeholder="Add a reply...">
+                <div class="button-group group float-right">
+                  <button class="btn btn-cancel-reply float-lg-left" type="button" name="button">Cancel</button>
+                  <button class="btn btn-reply float-lg-left" type="button" name="button">Reply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment-content-group comment-content-sub-group group">
+            <div class="comment-avatar-group float-lg-left fload-md-left d-md-inline">
+              <a href=""> <%= image_tag 'enthusiast.jpg', class: 'sub-comment-avatar' %> </a>
+            </div>
+            <div class="comment-heading-group group">
+              <span class="commenter-name float-lg-left float-md-left">Spitter45</span>
+              <span class="comment-age float-lg-left float-md-left">2 months ago</span></br>
+              <div class="comment-body col-lg-10 col-md-10">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris
+                </p>
+                <div class="comment-like-dislike col-lg-6 ">
+                  <a href=""><%= image_tag 'thumbs-up.png', class: 'opinion-thumbs opinion-thumbs-up' %>3.1K</a>
+                  <a href=""><%= image_tag 'thumbs-down.png', class: 'opinion-thumbs opinion-thumbs-down' %>4.1K</a>
+                  <a class="js-reply ml-2" href="">Reply</a>
+                </div>
+                <div class="comment-input-group col-lg-12 float-left mt-2">
+                  <input type="text" name="" value="" placeholder="Add a reply...">
+                </div>
+                <div class="button-group group float-right">
+                  <button class="btn btn-cancel-reply float-lg-left" type="button" name="button">Cancel</button>
+                  <button class="btn btn-reply float-lg-left" type="button" name="button">Reply</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="videos-playlist col-lg-4 float-lg-left float-sm-none pl-lg-2">
+    <span class="playlist-heading">Playing Next</span>
+      <% 7.times do %>
+        <div class="card card-index group col-sm-6 col-lg-12" style="">
+          <a href="/videos/1" class="card-link">
+            <img class="card-img-top" src="http://b.vimeocdn.com/ts/208/974/208974515_640.jpg" alt="Card image cap">
+          </a>
+          <div class="card-body">
+            <a href="/videos/1" class="card-link">
+              <p class="card-text">Example Video Title</p>
+            </a>
+            <span>Verty00</span>
+          </div>
+        </div>
+      <% end %>
+  </div>
+</div>
