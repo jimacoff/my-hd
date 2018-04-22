@@ -408,7 +408,111 @@ button.btn.btn-reply {
   border-radius: .12rem;
 }
 
+// channel page
+
+.channel-wrapper {
+  height: 100%;
+  margin: 0 auto;
+
+  .hero-channel-home {
+    height:400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), asset-url('sunny-day.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .channel-info {
+    position: relative;
+    top: -97px;
+    width: 765px;
+
+    a {
+
+      img.channel-avatar {
+        width: 200px;
+        border-radius: 100%;
+        border: 3px solid #fff;
+      }
+    }
+
+    .channel-info-stats {
+      position: absolute;
+      bottom: -10px;
+      right: 145px;
+    }
+  }
+}
+
 // media queries
+
+@media screen and (max-width: 991px) {
+
+  .image-wrapper {
+    position: relative;
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .comment-avatar-group {
+    float: left;
+  }
+
+  .comment-heading-group {
+    // float: left;
+    width: 80%;
+
+    .comment-body {
+      padding-left: 62px !important;
+    }
+  }
+
+  .comment-content-sub-group {
+
+    .comment-heading-group {
+      padding-left: 50px;
+
+      .comment-body {
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+  .videos-playlist {
+
+    div.card.card-index {
+      width: 100% !important;
+      float: left;
+
+      .card-link {
+        float: left;
+        width: 50%;
+      }
+
+      .card-body {
+        float: left;
+        width: 50%;
+      }
+    }
+  }
+
+  img.channel-avatar {
+    width: 115px !important;
+  }
+
+  .channel-info {
+    top: -128px !important;
+
+    .channel-info-stats {
+      postition: inherit !important;
+      bottom: inherit !important;
+      right: inherit !important;
+    }
+  }
+}
 
 @media screen and (max-width: 639px) {
 

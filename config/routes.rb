@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'privacy', to: 'pages#privacy'
   get 'terms', to: 'pages#terms'
 
+  resources :channels, only: [:show]
   resources :videos, only: [:index, :show]
 end

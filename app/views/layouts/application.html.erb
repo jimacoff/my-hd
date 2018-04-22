@@ -44,7 +44,7 @@
         </ul>
       </div>
     </nav>
-    <div id="main">
+    <div id="main" style=" <%= 'max-width:none;' if current_page?(controller: :channels, action: :show, id: 1) %> ">
       <%= render 'shared/flash' %>
       <%= yield %>
     </div>
