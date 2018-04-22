@@ -1,4 +1,5 @@
-## ![readme-logo](https://user-images.githubusercontent.com/19522903/39090030-80502c64-4588-11e8-926f-1cbf13539838.png)
+![readme-logo](https://user-images.githubusercontent.com/19522903/39090030-80502c64-4588-11e8-926f-1cbf13539838.png)
+##
 
 #### An open-source production ready Ruby/Rails video publishing app with VAST pre-roll and mid-roll ad support
 
