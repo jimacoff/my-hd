@@ -33,7 +33,7 @@ With a single click you can deploy your own private instance of the My-HD app on
 
 My-HD uses API's from [AWS(s3)](https://aws.amazon.com/s3), [coconut.co](http://coconut.co), and [Stripe](https://stripe.com)
 
-In order for users to upload videos and have them automatically transcoded you must obtain api credentials for both services.
+In order for users to upload videos and have them automatically transcoded you must obtain api credentials for all services.
 
 ## Test Coverage
 

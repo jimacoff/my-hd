@@ -1,5 +1,5 @@
 *:focus {
-  outline: 0;
+  outline: 0 !important;
 }
 
 .group:after {
@@ -54,6 +54,14 @@
 
 nav.navbar {
   width: 100%;
+  transition: 0.2s;
+  background-color: #fff;
+  margin: 0 auto;
+  padding-left: 15px;
+
+  button.navbar-toggler {
+    border: none;
+  }
 
   a#logo-link {
 
