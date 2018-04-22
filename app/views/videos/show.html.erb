@@ -2,9 +2,9 @@
   <div class="hero-player col-lg-8 float-lg-left pr-lg-2">
     <div class="video-player">
       <video id='my-video' width="640" height="480" controls>
-        <source src="" title='1080p' type='video/mp4'/>
-        <source src="" title='720p' type='video/mp4'/>
-        <source src="" title='480p' type='video/mp4'/>
+        <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4" title='1080p' type='video/mp4'/>
+        <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4" title='720p' type='video/mp4'/>
+        <source src="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4" title='480p' type='video/mp4'/>
       </video>
       <script type="text/javascript">
         fluidPlayer(
@@ -16,9 +16,9 @@
                    playPauseAnimation:     true,
                    fillToContainer:        true,
                    autoPlay:               true,
-                   mute:                   false,
+                   mute:                   true,
                    keyboardControl:        true,
-                   layout:                 'default',
+                   layout:                 "<%= fluid_player_layout %>",
                    logo: {
                        imageUrl:           null,
                        position:           'top left',
@@ -99,7 +99,7 @@
           <div class="comment-heading-group group">
             <span class="commenter-name float-lg-left float-md-left">Winner45</span>
             <span class="comment-age float-lg-left float-md-left">2 months ago</span></br>
-            <div class="comment-body col-lg-10 col-md-10">
+            <div class="comment-body col-lg-12 col-md-12">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -126,7 +126,7 @@
             <div class="comment-heading-group group">
               <span class="commenter-name float-lg-left float-md-left">Spitter45</span>
               <span class="comment-age float-lg-left float-md-left">2 months ago</span></br>
-              <div class="comment-body col-lg-10 col-md-10">
+              <div class="comment-body col-lg-12 col-md-12">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

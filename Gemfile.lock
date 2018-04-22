@@ -50,6 +50,7 @@ GEM
     bindex (0.5.0)
     bootsnap (1.3.0)
       msgpack (~> 1.0)
+    browser (2.5.3)
     builder (3.2.3)
     choice (0.2.0)
     coderay (1.1.2)
@@ -175,6 +176,7 @@ DEPENDENCIES
   annotate
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
+  browser
   listen (>= 3.0.5, < 3.2)
   mini_magick (~> 4.8)
   pg (>= 0.18, < 2.0)
