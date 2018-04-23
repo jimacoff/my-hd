@@ -6,9 +6,11 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'browser'
 gem 'mini_magick', '~> 4.8'
+gem 'papertrail'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
+gem 'sentry-raven'
 gem 'uglifier', '>= 1.3.0'
 
 group :development do
